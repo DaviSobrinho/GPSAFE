@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/busca_item_nome"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@color/grey"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/busca_item_data"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@color/grey"
+        android:textSize="16sp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintStart_toEndOf="@id/busca_item_cpf"
+        app:layout_constraintTop_toTopOf="@id/busca_item_cpf"/>
+
+    <TextView
+        android:id="@+id/busca_item_valor"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@color/green"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintStart_toEndOf="@id/busca_item_data"
+        app:layout_constraintTop_toTopOf="@id/busca_item_data"/>
+    <TextView
+        android:id="@+id/busca_item_cpf"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintStart_toEndOf="@id/busca_item_nome"
+        app:layout_constraintTop_toTopOf="@id/busca_item_nome"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

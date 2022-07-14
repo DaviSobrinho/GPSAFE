@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/drawable-anydpi/ic_action_Home.xml" value="0.133" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.209" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.1375" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.1375" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1375" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2365" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/drawable/ic_baseline_logo.xml" value="0.2365" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/drawable/ic_baseline_monetization_on_24.xml" value="0.2365" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/drawable/ic_baseline_track_changes_24.xml" value="0.16" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/drawable/ic_launcher_background.xml" value="0.209" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/layout/activity_formulario_cliente.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/layout/activity_tela_cliente.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/layout/busca_item.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/layout/editexttelacliente.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/menu/menu_opcoes_cliente.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/menu/options_menu.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1055" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1055" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/xml/pesquisavel.xml" value="0.10326086956521739" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/gpsafe_for_galaxym52/app/src/main/res/xml/procuravel.xml" value="0.10326086956521739" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.activity.FormularioClienteActivity">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.activity.FormularioClienteActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/botaofinancas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/cian"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_monetization_on_24" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/botaopesquisar"  android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="centerInside"
+        android:backgroundTint="@color/cian"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_action_pesquisar" />
+    <TextView
+        android:id="@+id/textviewnomedapagina"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/cian"
+        android:gravity="center"
+        android:text="ADICIONAR CLIENTE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:hint="Pesquisar"
+        android:id="@+id/edittext_pesquisar"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:textSize="16sp"
+        android:textColor="#707070"
+        android:background="@color/grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textviewnomedapagina" />
+    <TextView
+        android:id="@+id/tela_cliente_cliente"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="140dp"
+        android:text="CLIENTE"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@color/cian"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <EditText
+        android:id="@+id/edittextnome"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:hint="Nome:"
+        android:inputType="text"
+        android:background="@color/grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tela_cliente_cliente"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp"/>
+    <EditText
+        android:id="@+id/edittextcpf"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:inputType="numberDecimal"
+        android:hint="CPF: 000.000.000-00"
+        android:digits="1234567890-."
+        android:background="@color/grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/edittextnome"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp"/>
+    <EditText
+        android:id="@+id/edittexttelefone"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:inputType="numberDecimal"
+        android:hint="Telefone: (00)00000-0000"
+        android:digits="1234567890-()"
+        android:background="@color/grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/edittextcpf"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp"/>
+    <EditText
+        android:id="@+id/edittextdata"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:inputType="date"
+        android:background="@color/grey"
+        android:hint="Dia da mensalidade: 00"
+        android:digits="1234567890"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/edittexttelefone"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp"/>
+    <EditText
+        android:id="@+id/edittextvalor"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:inputType="numberDecimal"
+        android:hint="Mensalidade: R$00,00"
+        android:background="@color/grey"
+        android:digits="1234567890,-.R$"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/edittextdata"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp"/>
+    <EditText
+        android:id="@+id/edittextcontrato"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:inputType="date"
+        android:hint="Contrato até: 00/00/0000"
+        android:digits="1234567890/"
+        android:background="@color/grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/edittextvalor"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/botaoadicionarcliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="@color/cian"
+        android:clickable="true"
+        android:focusable="true"
+       app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_add_circle_24" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/botaohome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/cian"
+        app:srcCompat="@drawable/ic_baseline_home_24" />
+
+    <Button
+        android:id="@+id/tela_cliente_botaoconfirmar"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:text="ADICONAR"
+
+        android:background="@color/grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/edittextcontrato"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
